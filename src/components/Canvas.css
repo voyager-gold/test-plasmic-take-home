@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+}
+
+.Canvas {
+  width: 800px;
+  height: 600px;
+  background: white;
+  user-select: none;
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+.LassoView {
+  position: absolute;
+  border: 1px solid blue;
+}
+
+.LassoHighlight {
+  position: absolute;
+  border: 1px solid red;
+}
+
+.RectView {
+  position: absolute;
+  background-color: rgba(200, 200, 200, 0.5);
+}

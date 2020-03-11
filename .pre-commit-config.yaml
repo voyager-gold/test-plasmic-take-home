@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/prettier/prettier
+    sha: 1.15.3
+    hooks:
+      - id: prettier
+        files: ^src/.*\.(js|jsx|ts|tsx)$
+  - repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v2.1.0
+    hooks:
+      - id: check-merge-conflict
+      - id: trailing-whitespace
+        exclude: ^.*/__snapshots__/.*$
